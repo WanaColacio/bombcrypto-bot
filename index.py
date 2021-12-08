@@ -48,7 +48,7 @@ cat = """
 print(cat)
 
 
-bell_sound = simpleaudio.WaveObject.from_wave_file("bell.wav")
+winsound.PlaySound('bell.wav', winsound.SND_bell.wav")
 
 
 if __name__ == '__main__':
